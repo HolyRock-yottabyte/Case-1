@@ -36,11 +36,6 @@ namespace Case1
             double result = doubleValue * intValue;
             Console.WriteLine("Ondalıklı sayı ile tam sayının çarpımı: " + result);
 
-            // Karakterlerin ASCII değerleri ve toplama işlemi
-            int asciiValue1 = (int)charInput1;
-            int asciiValue2 = (int)charInput2;
-            int asciiSum = asciiValue1 + asciiValue2;
-            Console.WriteLine("İki karakterin ASCII değerlerinin toplamı: " + asciiSum);
         }
     }
 
